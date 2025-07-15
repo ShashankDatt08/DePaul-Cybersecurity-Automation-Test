@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: depaul-cybersecurity-automation-test
+  description: A project focused on automating cybersecurity processes and testing at DePaul University.
+  annotations:
+    github.com/project-slug: ShashankDatt08/DePaul-Cybersecurity-Automation-Test
+    jira/project-key: SCRUM
+    jira/label: backstage-component:depaul-cybersecurity-automation-test
+spec:
+  type: application
+  owner: ICS
+  lifecycle: experimental
